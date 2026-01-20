@@ -15,7 +15,7 @@ This project builds and compares multiple Machine Learning models to predict whe
 - Random Forest
 - Support Vector Machine (SVM)
 - K-Nearest Neighbors (KNN)
-- XGBoost
+- XGBoost 
 
 ### Technologies
 - Python
