@@ -20,10 +20,15 @@ This project isn't just about code; it's an investigation. We are diving deep in
 We are working with the Students Social Media Addiction.csv file. The key suspects (features) in our investigation include:
 
 ⏳ Avg Daily Usage Hours: The time sunk into the screen.
+
 🛌 Sleep Hours Per Night: The rest sacrificed for the scroll.
+
 🧠 Mental Health Score: The psychological impact.
+
 ⚔️ Conflicts Over Social Media: The real-world friction.
+
 📊 Addicted Score: The target variable we are trying to predict.
+
 
 🛠️ The Detective's Toolkit (Tech Stack)
 We are armed with the heavy hitters of the Python data science ecosystem:
