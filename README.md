@@ -88,8 +88,11 @@ This notebook explores a wine dataset and builds predictive models to understand
 
 ## 📂 Project Structure
 📁 Wine-Quality-Prediction
+
 ├── 🍷 Wine.ipynb 
+
 ├── 📘 Wine dataset.csv
+
 └── 📦 README.md 
 
 
@@ -101,6 +104,16 @@ This notebook explores a wine dataset and builds predictive models to understand
 | ML | Scikit-learn |
 | Visualization | Matplotlib, Seaborn |
 | Environment | Jupyter Notebook |
+
+
+## 🧪 The Blind Taste Test (Modeling)
+
+* 🧐 The Traditionalist: Logistic Regression
+* 📏 The Precisionist: SVM (Support Vector Machine)
+* 🏘️ The Local: KNN (K-Nearest Neighbors)
+* 🌳 The Organic Grower: Decision Tree
+* 🌲 The Estate Blend: Random Forest
+* 🚀 The Modernist: Gradient Boosting
 
 
 ## 📊 Model Performance
