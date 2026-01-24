@@ -60,3 +60,57 @@ Model performance is evaluated using appropriate metrics such as:
 * Mean Squared Error (MSE)
   
 * Accuracy (if classification)
+
+
+
+
+# 🍷 Wine Quality Prediction — A Machine Learning Journey
+
+
+This project uses **Machine Learning** to analyze wine characteristics and predict its quality — blending data science with a splash of creativity.
+> 
+* Alcohol: The body of the data.
+* Proline & Flavanoids: The complex undertones.
+* Class: The origin label we are trying to predict (Cultivator 1, 2, or 3).
+
+## 🌟 Project Snapshot
+This notebook explores a wine dataset and builds predictive models to understand how chemical properties influence wine quality.
+
+
+## 🧠 What’s Inside the Bottle?
+✔ Data Cleaning & Exploration  
+✔ Feature Engineering  
+✔ Machine Learning Model Training  
+✔ Model Evaluation & Performance Metrics  
+✔ Visual Insights & Interpretations  
+
+---
+
+## 📂 Project Structure
+📁 Wine-Quality-Prediction
+├── 🍷 Wine.ipynb 
+├── 📘 Wine dataset.csv
+└── 📦 README.md 
+
+
+## 🛠️ Tools & Ingredients Used
+| Category | Tools |
+|-------|------|
+| Language | Python 🐍 |
+| Libraries | NumPy, Pandas |
+| ML | Scikit-learn |
+| Visualization | Matplotlib, Seaborn |
+| Environment | Jupyter Notebook |
+
+
+## 📊 Model Performance
+
+The model is evaluated using:
+
+* ✅ R² Score
+
+* ✅ Mean Squared Error (MSE)
+
+* ✅ Prediction Accuracy (if classification)
+
+Performance tuning can further enhance prediction quality.
