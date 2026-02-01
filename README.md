@@ -2,7 +2,7 @@
 
 
 
-## 📖 ML-Projectsof Contents
+# 📖 ML-Projectsof Contents
 
 - [Decoding Social Media Addiction](#-the-vicious-cycle:-decoding-social-media-addiction)
 - [The Mission](#-the-mission)
