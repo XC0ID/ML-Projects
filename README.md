@@ -14,7 +14,7 @@
 
 
 
-# 📱🔗 The Vicious Cycle: Decoding Social Media Addiction 🧠🚫
+## 📱🔗 The Vicious Cycle: Decoding Social Media Addiction 🧠🚫
 
 This project focuses on building and evaluating a machine learning model using Python.  
 The workflow includes data preprocessing, feature engineering, model training, and performance evaluation.
