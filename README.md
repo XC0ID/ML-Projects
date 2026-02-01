@@ -8,7 +8,7 @@
 - [Spare Part Demand Forecasting](#spare-part-demand-forecasting)
 
 
-##  The Vicious Cycle of Social Media Addiction
+* ##  The Vicious Cycle of Social Media Addiction
 
 
 This project focuses on building and evaluating a machine learning model using Python.  
@@ -75,14 +75,7 @@ Model performance is evaluated using appropriate metrics such as:
 * Accuracy (if classification)
   
 
-
-
-
-# 🍷
-
-## Wine Quality Prediction A Machine Learning Journey
-
-
+* ##  Wine Quality Prediction A Machine Learning Journey
 
 This project uses **Machine Learning** to analyze wine characteristics and predict its quality — blending data science with a splash of creativity.
 > 
@@ -132,7 +125,6 @@ This notebook explores a wine dataset and builds predictive models to understand
 * 🌲 The Estate Blend: Random Forest
 * 🚀 The Modernist: Gradient Boosting
 
-
 ## 📊 Model Performance
 
 The model is evaluated using:
@@ -147,10 +139,7 @@ Performance tuning can further enhance prediction quality.
 
 
 
-
-# 📊 Spare Part Demand Forecasting
-
-## Spare Part Demand Forecasting
+* ## Spare Part Demand Forecasting
 
 A machine learning–based project to forecast spare part demand using historical inventory data. This project helps optimize inventory management by predicting future demand trends, reducing stockouts and overstock situations.
 
