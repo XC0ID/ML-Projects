@@ -1,24 +1,21 @@
 
 
 
+## 📖 Table of Contents
 
-# 📖 ML-Projectsof Contents
-
-- [Decoding Social Media Addiction](#-the-vicious-cycle:-decoding-social-media-addiction)
-- [The Mission](#-the-mission)
-- [Technologies Used](#-technologies-used)
-- [Methodology](#-methodology)
-- [Model Performance](#-model-performance)
-- [Result](#-result) 
+- [The Vicious Cycle of Social Media Addiction](#the-vicious-cycle-of-social-media-addiction)
+- [Wine Quality Prediction A Machine Learning Journey](#wine-quality-prediction-a-machine-learning-journey)
+- [Spare Part Demand Forecasting](#spare-part-demand-forecasting)
 
 
+##  The Vicious Cycle of Social Media Addiction
 
-
-## 📱🔗 The Vicious Cycle: Decoding Social Media Addiction 🧠🚫
 
 This project focuses on building and evaluating a machine learning model using Python.  
 The workflow includes data preprocessing, feature engineering, model training, and performance evaluation.
 From infinite scrolls to data-driven goals. Unraveling the patterns of digital dependency among students.
+
+
 
 ## 🧐 The Mission
 Social media is designed to keep us hooked, but what actually drives the addiction? Is it the hours spent? The sleep lost? Or the mental health toll?
@@ -81,7 +78,10 @@ Model performance is evaluated using appropriate metrics such as:
 
 
 
-# 🍷 Wine Quality Prediction — A Machine Learning Journey
+# 🍷
+
+## Wine Quality Prediction A Machine Learning Journey
+
 
 
 This project uses **Machine Learning** to analyze wine characteristics and predict its quality — blending data science with a splash of creativity.
@@ -149,6 +149,8 @@ Performance tuning can further enhance prediction quality.
 
 
 # 📊 Spare Part Demand Forecasting
+
+## Spare Part Demand Forecasting
 
 A machine learning–based project to forecast spare part demand using historical inventory data. This project helps optimize inventory management by predicting future demand trends, reducing stockouts and overstock situations.
 
