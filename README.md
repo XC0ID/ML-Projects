@@ -60,6 +60,7 @@ Model performance is evaluated using appropriate metrics such as:
 * Mean Squared Error (MSE)
   
 * Accuracy (if classification)
+  
 
 
 
@@ -127,3 +128,86 @@ The model is evaluated using:
 * ✅ Prediction Accuracy (if classification)
 
 Performance tuning can further enhance prediction quality.
+
+
+
+
+# 📊 Spare Part Demand Forecasting
+
+A machine learning–based project to forecast spare part demand using historical inventory data. This project helps optimize inventory management by predicting future demand trends, reducing stockouts and overstock situations.
+
+## 🚀 Project Overview
+
+Accurate demand forecasting is critical for efficient inventory control. This project uses historical spare part inventory data and applies data preprocessing, exploratory data analysis (EDA), and machine learning models to predict future demand.
+
+The core implementation is done in a Jupyter Notebook for clarity and experimentation.
+
+---
+
+## 📂 Project Structure
+
+```
+├── Forecasting.ipynb          # Main notebook for data analysis & modeling
+
+├── spare_part_inventory.csv  # Dataset used for forecasting
+
+├── README.md                 # Project documentation
+```
+
+---
+
+## 🧠 Workflow
+
+1. **Data Loading** – Import and inspect the dataset
+2. **Data Preprocessing** – Handle missing values, formatting, and feature engineering
+3. **Exploratory Data Analysis (EDA)** – Understand patterns and trends
+4. **Model Building** – Train machine learning models for forecasting
+5. **Evaluation** – Measure performance using appropriate metrics
+6. **Prediction** – Generate demand forecasts
+
+---
+
+## 🛠️ Technologies Used
+
+* **Python**
+* **Pandas** – Data manipulation
+* **NumPy** – Numerical operations
+* **Matplotlib / Seaborn** – Data visualization
+* **Scikit-learn** – Machine learning models
+* **Jupyter Notebook** – Interactive development
+
+---
+
+## 📊 Dataset
+
+* **File:** `spare_part_inventory.csv`
+* Contains historical records of spare parts and their demand
+* Used for training and testing forecasting models
+
+## 🔮  Technical Implementation
+
+###  Feature Engineering
+
+The model generates several time-based and statistical features to capture demand patterns:
+
+* **Rolling Usage:** `avg_usage_7d` and `avg_usage_30d` to track short and long-term trends.
+* **Temporal Features:** Extraction of `day_of_week`, `month`, and `is_weekend` to capture seasonal or weekly cycles.
+* **Inventory Metrics:** `days_of_inventory` (current stock relative to usage rate) and `lead_time_demand`.
+
+###  Inventory Logic
+
+The simulation uses the following parameters to flag risks:
+
+* **Initial Stock:** 110 units (assumed).
+* **Supplier Lead Time:** 7 days.
+* **Stockout Target:** A binary flag (`stockout_next_7d`) is triggered if current stock is insufficient to cover the average demand during the 7-day lead time.
+
+---
+
+## 📈 **Results**
+
+* The model learns historical demand patterns
+* Provides predictions that can support inventory planning decisions
+
+⭐ If you find this project useful, don’t forget to star the repository!
+
