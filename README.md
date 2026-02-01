@@ -1,3 +1,19 @@
+
+
+
+
+## 📖 ML-Projectsof Contents
+
+- [Decoding Social Media Addiction](#-the-vicious-cycle:-decoding-social-media-addiction)
+- [The Mission](#-the-mission)
+- [Technologies Used](#-technologies-used)
+- [Methodology](#-methodology)
+- [Model Performance](#-model-performance)
+- [Result](#-result) 
+
+
+
+
 # 📱🔗 The Vicious Cycle: Decoding Social Media Addiction 🧠🚫
 
 This project focuses on building and evaluating a machine learning model using Python.  
