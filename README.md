@@ -193,7 +193,7 @@ The core implementation is done in a Jupyter Notebook for clarity and experiment
 
 ### 🔮  Technical Implementation
 
-#### Feature Engineering
+#### ⭐ Feature Engineering
 The model generates several time-based and statistical features to capture demand patterns:
 
 * **Rolling Usage**: avg_usage_7d and avg_usage_30d to track short and long-term trends.
@@ -202,7 +202,7 @@ The model generates several time-based and statistical features to capture deman
 
 * **Inventory Metrics**: days_of_inventory (current stock relative to usage rate) and lead_time_demand.
 
-#### Inventory Logic
+#### ⭐ Inventory Logic
 The simulation uses the following parameters to flag risks:
 
 * **Initial Stock**: 110 units (assumed).
@@ -210,23 +210,7 @@ The simulation uses the following parameters to flag risks:
 * **Supplier Lead Time**: 7 days.
 
 * **Stockout Target**: A binary flag (stockout_next_7d) is triggered if current stock is insufficient to cover the average demand during the 7-day lead time.
-
-###  Feature Engineering
-
-The model generates several time-based and statistical features to capture demand patterns:
-
-* **Rolling Usage:** `avg_usage_7d` and `avg_usage_30d` to track short and long-term trends.
-* **Temporal Features:** Extraction of `day_of_week`, `month`, and `is_weekend` to capture seasonal or weekly cycles.
-* **Inventory Metrics:** `days_of_inventory` (current stock relative to usage rate) and `lead_time_demand`.
-
-###  Inventory Logic
-
-The simulation uses the following parameters to flag risks:
-
-* **Initial Stock:** 110 units (assumed).
-* **Supplier Lead Time:** 7 days.
-* **Stockout Target:** A binary flag (`stockout_next_7d`) is triggered if current stock is insufficient to cover the average demand during the 7-day lead time.
-
+  
 ---
 
 ### 📈 **Results**
