@@ -1,4 +1,6 @@
+# Machine Learning Projects Repository 🚀
 
+This repository contains multiple machine learning and data science projects, each organized into separate folders. Every project focuses on a real-world problem and demonstrates end-to-end ML workflows including data preprocessing, modeling, evaluation, and insights.
 
 
 ## 📖 Table of Contents
@@ -6,45 +8,48 @@
 - [The Vicious Cycle of Social Media Addiction](#the-vicious-cycle-of-social-media-addiction)
 - [Wine Quality Prediction A Machine Learning Journey](#wine-quality-prediction-a-machine-learning-journey)
 - [Spare Part Demand Forecasting](#spare-part-demand-forecasting)
+- [ Bank Customer Churn Prediction](#bank-customer-churn-prediction)
 
-
-* ##  The Vicious Cycle of Social Media Addiction
+* ## The Vicious Cycle of Social Media Addiction
 
 
 This project focuses on building and evaluating a machine learning model using Python.  
 The workflow includes data preprocessing, feature engineering, model training, and performance evaluation.
 From infinite scrolls to data-driven goals. Unraveling the patterns of digital dependency among students.
 
-
-
+---
 ### 🧐 The Mission
 Social media is designed to keep us hooked, but what actually drives the addiction? Is it the hours spent? The sleep lost? Or the mental health toll?
 
 This project isn't just about code; it's an investigation. We are diving deep into student data to analyze the "Vicious Cycle of Social Media Addiction"—understanding the triggers, visualizing the conflicts, and building machine learning models to predict the addiction score.
 
+---
 ### 🚀 Features
 - Data cleaning and preprocessing  
 - Feature selection and transformation  
 - Model training using Scikit-learn  
 - Model evaluation using performance metrics  
 
+---
 
 📂 The Evidence (Dataset)
 We are working with the Students Social Media Addiction.csv file. The key suspects (features) in our investigation include:
 
-⏳ Avg Daily Usage Hours: The time sunk into the screen.
+⏳ **Avg Daily Usage Hours**: The time sunk into the screen.
 
-🛌 Sleep Hours Per Night: The rest sacrificed for the scroll.
+🛌 **Sleep Hours Per Night**: The rest sacrificed for the scroll.
 
-🧠 Mental Health Score: The psychological impact.
+🧠 **Mental Health Score**: The psychological impact.
 
-⚔️ Conflicts Over Social Media: The real-world friction.
+⚔️ **Conflicts Over Social Media**: The real-world friction.
 
-📊 Addicted Score: The target variable we are trying to predict.
+📊 **Addicted Score**: The target variable we are trying to predict.
 
 
 🛠️ The Detective's Toolkit (Tech Stack)
 We are armed with the heavy hitters of the Python data science ecosystem:
+
+---
 
 #### ⚙️ The Pipeline (Methodology)
 1. 🧹 Data Cleaning & Preprocessing
@@ -64,6 +69,7 @@ The Support Vector Scout: SVR.
 The Neighbor: KNeighborsRegressor.
 The Brain: MLPRegressor (Neural Network).
 
+---
 #### 📈 Results
 
 Model performance is evaluated using appropriate metrics such as:
@@ -75,14 +81,14 @@ Model performance is evaluated using appropriate metrics such as:
 * Accuracy (if classification)
   
 
-* ##  Wine Quality Prediction A Machine Learning Journey
+* ## Wine Quality Prediction A Machine Learning Journey
 
 This project uses **Machine Learning** to analyze wine characteristics and predict its quality — blending data science with a splash of creativity.
 > 
 * Alcohol: The body of the data.
 * Proline & Flavanoids: The complex undertones.
 * Class: The origin label we are trying to predict (Cultivator 1, 2, or 3).
-
+---
 ### 🌟 Project Snapshot
 This notebook explores a wine dataset and builds predictive models to understand how chemical properties influence wine quality.
 
@@ -162,7 +168,6 @@ The core implementation is done in a Jupyter Notebook for clarity and experiment
 ```
 
 ---
-
 ### 🧠 Workflow
 
 1. **Data Loading** – Import and inspect the dataset
@@ -173,7 +178,6 @@ The core implementation is done in a Jupyter Notebook for clarity and experiment
 6. **Prediction** – Generate demand forecasts
 
 ---
-
 ### 🛠️ Technologies Used
 
 * **Python**
@@ -184,7 +188,6 @@ The core implementation is done in a Jupyter Notebook for clarity and experiment
 * **Jupyter Notebook** – Interactive development
 
 ---
-
 ### 📊 Dataset
 
 * **File:** `spare_part_inventory.csv`
@@ -197,26 +200,102 @@ The core implementation is done in a Jupyter Notebook for clarity and experiment
 The model generates several time-based and statistical features to capture demand patterns:
 
 * **Rolling Usage**: avg_usage_7d and avg_usage_30d to track short and long-term trends.
-
 * **Temporal Features**: Extraction of day_of_week, month, and is_weekend to capture seasonal or weekly cycles.
-
 * **Inventory Metrics**: days_of_inventory (current stock relative to usage rate) and lead_time_demand.
 
 #### ⭐ Inventory Logic
 The simulation uses the following parameters to flag risks:
 
 * **Initial Stock**: 110 units (assumed).
-
 * **Supplier Lead Time**: 7 days.
-
-* **Stockout Target**: A binary flag (stockout_next_7d) is triggered if current stock is insufficient to cover the average demand during the 7-day lead time.
-  
+* **Stockout Target**: A binary flag (stockout_next_7d) is triggered if current stock is insufficient to cover the average demand during the 7-day lead time. 
 ---
-
 ### 📈 **Results**
 
 * The model learns historical demand patterns
 * Provides predictions that can support inventory planning decisions
 
-⭐ If you find this project useful, don’t forget to star the repository!
+
+* ## Bank Customer Churn Prediction
+
+This project focuses on predicting **customer churn** using machine learning techniques. The goal is to identify customers who are likely to leave the bank, helping businesses take proactive retention actions.
+
+---
+### 📂 Project Structure
+
+```
+├── Bank_churn_model_evaluation.ipynb
+
+├── BankChurners.csv
+  
+├── README.md                          
+```
+
+---
+### 📊 Dataset Overview
+
+* **Source:** Bank customer data
+* **Target Variable:** `Attrition_Flag` (Churn / Existing Customer)
+* **Rows:** ~10,000 customers
+* **Features:** Demographics, account information, transaction behavior
+
+##### Key Feature Categories
+
+* Customer demographics (Age, Gender, Education)
+* Account details (Credit limit, Card category)
+* Transaction behavior (Transaction count, amount)
+---
+### ⚙️ Machine Learning Models Used
+
+The notebook evaluates multiple models to find the best-performing one:
+
+* Logistic Regression
+* Random Forest Classifier
+* Gradient Boosting Classifier
+* Support Vector Machine (SVM)
+* (Optional extensions: XGBoost, LightGBM, CatBoost)
+
+Pipelines are used where appropriate for:
+
+* Feature scaling
+* Clean preprocessing
+
+---
+### 📈 Model Evaluation Metrics
+
+Models are evaluated using:
+* Accuracy
+* ROC-AUC Score
+* Confusion Matrix
+* Classification Report
+
+Visualization includes:
+* ROC Curves
+* Performance comparison plots
+
+---
+### 🧠 Key Insights
+
+* Tree-based models generally outperform linear models
+* Transaction behavior features are strong churn indicators
+* Ensemble models provide better generalization
+
+---
+### 🔮 Future Improvements
+
+* Hyperparameter tuning (GridSearchCV / Optuna)
+* Advanced ensemble stacking
+* Feature importance & SHAP explainability
+* Deployment using Flask / FastAPI
+
+---
+### 🛠 Tech Stack
+
+* Python
+* Pandas, NumPy
+* Scikit-learn
+* Matplotlib, Seaborn
+* Jupyter Notebook
+---
+
 
