@@ -9,7 +9,9 @@ This repository contains multiple machine learning and data science projects, ea
 - [Wine Quality Prediction A Machine Learning Journey](#wine-quality-prediction-a-machine-learning-journey)
 - [Spare Part Demand Forecasting](#spare-part-demand-forecasting)
 - [ Bank Customer Churn Prediction](#bank-customer-churn-prediction)
-
+- [Nursery Admission Prediction](#nursery-admission-prediction)
+  
+---
 * ## The Vicious Cycle of Social Media Addiction
 
 
@@ -50,17 +52,16 @@ We are working with the Students Social Media Addiction.csv file. The key suspec
 We are armed with the heavy hitters of the Python data science ecosystem:
 
 ---
-
 #### ⚙️ The Pipeline (Methodology)
-1. 🧹 Data Cleaning & Preprocessing
+1. 🧹 **Data Cleaning & Preprocessing**
 Raw data is messy. We convert object types to numerics and handle errors to ensure our models get a clean diet of data.
 
-2. 🔍 Exploratory Data Analysis (EDA)
+2. 🔍 **Exploratory Data Analysis (EDA)**
 We don't guess; we look.
 
 Correlation Heatmaps: Visualizing how Sleep battles Usage and how Mental Health ties into Addiction.
 
-3. ⚔️ The Model Battle Royale
+3. ⚔️**The Model Battle Royale**
 We aren't just trying one algorithm; we are throwing them all into the arena to see which one predicts addiction best. Our Pipeline includes:
 
 The Linear Legion: LinearRegression, Ridge, Lasso, ElasticNet, BayesianRidge.
@@ -70,7 +71,7 @@ The Neighbor: KNeighborsRegressor.
 The Brain: MLPRegressor (Neural Network).
 
 ---
-#### 📈 Results
+### 📈 Results
 
 Model performance is evaluated using appropriate metrics such as:
 
@@ -80,7 +81,7 @@ Model performance is evaluated using appropriate metrics such as:
   
 * Accuracy (if classification)
   
-
+---
 * ## Wine Quality Prediction A Machine Learning Journey
 
 This project uses **Machine Learning** to analyze wine characteristics and predict its quality — blending data science with a splash of creativity.
@@ -92,7 +93,7 @@ This project uses **Machine Learning** to analyze wine characteristics and predi
 ### 🌟 Project Snapshot
 This notebook explores a wine dataset and builds predictive models to understand how chemical properties influence wine quality.
 
-
+---
 ### 🧠 What’s Inside the Bottle?
 ✔ Data Cleaning & Exploration  
 ✔ Feature Engineering  
@@ -101,7 +102,6 @@ This notebook explores a wine dataset and builds predictive models to understand
 ✔ Visual Insights & Interpretations  
 
 ---
-
 ### 📂 Project Structure
 📁 Wine-Quality-Prediction
 
@@ -111,7 +111,7 @@ This notebook explores a wine dataset and builds predictive models to understand
 
 └── 📦 README.md 
 
-
+---
 ### 🛠️ Tools & Ingredients Used
 | Category | Tools |
 |-------|------|
@@ -121,34 +121,31 @@ This notebook explores a wine dataset and builds predictive models to understand
 | Visualization | Matplotlib, Seaborn |
 | Environment | Jupyter Notebook |
 
-
+---
 ### 🧪 The Blind Taste Test (Modeling)
-
 * 🧐 The Traditionalist: Logistic Regression
 * 📏 The Precisionist: SVM (Support Vector Machine)
 * 🏘️ The Local: KNN (K-Nearest Neighbors)
 * 🌳 The Organic Grower: Decision Tree
 * 🌲 The Estate Blend: Random Forest
 * 🚀 The Modernist: Gradient Boosting
-
+---
 ### 📊 Model Performance
 
 The model is evaluated using:
 
 * ✅ R² Score
-
 * ✅ Mean Squared Error (MSE)
-
 * ✅ Prediction Accuracy (if classification)
 
 Performance tuning can further enhance prediction quality.
 
-
-
+---
 * ## Spare Part Demand Forecasting
 
 A machine learning–based project to forecast spare part demand using historical inventory data. This project helps optimize inventory management by predicting future demand trends, reducing stockouts and overstock situations.
 
+---
 ### 🚀 Project Overview
 
 Accurate demand forecasting is critical for efficient inventory control. This project uses historical spare part inventory data and applies data preprocessing, exploratory data analysis (EDA), and machine learning models to predict future demand.
@@ -156,7 +153,6 @@ Accurate demand forecasting is critical for efficient inventory control. This pr
 The core implementation is done in a Jupyter Notebook for clarity and experimentation.
 
 ---
-
 ### 📂 Project Structure
 
 ```
@@ -193,7 +189,7 @@ The core implementation is done in a Jupyter Notebook for clarity and experiment
 * **File:** `spare_part_inventory.csv`
 * Contains historical records of spare parts and their demand
 * Used for training and testing forecasting models
-
+---
 ### 🔮  Technical Implementation
 
 #### ⭐ Feature Engineering
@@ -215,9 +211,8 @@ The simulation uses the following parameters to flag risks:
 * The model learns historical demand patterns
 * Provides predictions that can support inventory planning decisions
 
-
+---
 * ## Bank Customer Churn Prediction
-
 This project focuses on predicting **customer churn** using machine learning techniques. The goal is to identify customers who are likely to leave the bank, helping businesses take proactive retention actions.
 
 ---
@@ -233,22 +228,18 @@ This project focuses on predicting **customer churn** using machine learning tec
 
 ---
 ### 📊 Dataset Overview
-
 * **Source:** Bank customer data
 * **Target Variable:** `Attrition_Flag` (Churn / Existing Customer)
 * **Rows:** ~10,000 customers
 * **Features:** Demographics, account information, transaction behavior
 
 ##### Key Feature Categories
-
 * Customer demographics (Age, Gender, Education)
 * Account details (Credit limit, Card category)
 * Transaction behavior (Transaction count, amount)
 ---
 ### ⚙️ Machine Learning Models Used
-
 The notebook evaluates multiple models to find the best-performing one:
-
 * Logistic Regression
 * Random Forest Classifier
 * Gradient Boosting Classifier
@@ -256,13 +247,11 @@ The notebook evaluates multiple models to find the best-performing one:
 * (Optional extensions: XGBoost, LightGBM, CatBoost)
 
 Pipelines are used where appropriate for:
-
 * Feature scaling
 * Clean preprocessing
 
 ---
 ### 📈 Model Evaluation Metrics
-
 Models are evaluated using:
 * Accuracy
 * ROC-AUC Score
@@ -275,27 +264,73 @@ Visualization includes:
 
 ---
 ### 🧠 Key Insights
-
 * Tree-based models generally outperform linear models
 * Transaction behavior features are strong churn indicators
 * Ensemble models provide better generalization
 
 ---
 ### 🔮 Future Improvements
-
 * Hyperparameter tuning (GridSearchCV / Optuna)
 * Advanced ensemble stacking
 * Feature importance & SHAP explainability
 * Deployment using Flask / FastAPI
 
 ---
-### 🛠 Tech Stack
+* ## Nursery Admission Prediction 
 
-* Python
-* Pandas, NumPy
-* Scikit-learn
-* Matplotlib, Seaborn
-* Jupyter Notebook
+This project applies Machine Learning algorithms to predict nursery school admission outcomes based on various socio-economic and family-related features. The dataset used is the well-known Nursery dataset from the UCI Machine Learning Repository.
+
 ---
+### 📂 Project Structure
+#### 📦 Nursery
+ ┣ 📜 Nursery.ipynb        # Jupyter Notebook with data analysis & ML models
+ 
+ ┣ 📜 nursery.csv          # Dataset file
+ 
+ ┣ 📜 README.md            # Project documentation
+ 
+ ---
+### 📊 Dataset Description
+The Nursery dataset is derived from a hierarchical decision model originally developed to rank nursery school applications.
 
+#### 🔑 Features
+parents – Parents' occupation
+has_nurs – Child's nursery status
+form – Family form
+children – Number of children
+housing – Housing condition
+finance – Financial status
+social – Social condition
+health – Health condition
 
+#### 🎯 Target Variable
+class – Admission decision,not_recom,recommend,very_recom,priority,spec_prior
+
+#### ⚙️ Technologies Used
+Python,Pandas,NumPy,Scikit-learn,Matplotlib / Seaborn,Jupyter Notebook
+
+---
+### 🧠 Machine Learning Models Used
+**The notebook explores and compares multiple ML algorithms, such as: /** 
+* Logistic Regression
+* Decision Tree Classifier
+* Random Forest Classifier
+* Support Vector Machine (SVM)
+* K-Nearest Neighbors (KNN)
+* Naive Bayes
+(Models can be extended or ensembled for better performance.)
+
+---
+### 📈 Workflow
+* Data Loading (nursery.csv)
+* Data Preprocessing & Encoding
+* Exploratory Data Analysis (EDA)
+* Model Training
+* Model Evaluation (Accuracy, ROC-AUC, etc.)
+* Performance Comparison
+---
+### ✅ Results
+* Achieved strong classification accuracy
+* Compared multiple algorithms to find the best-performing model
+* Demonstrated effective preprocessing for categorical data
+---
