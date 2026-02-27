@@ -1,130 +1,100 @@
-# 🏥 Nurse Machine Learning Project
+# 🍷 Wine Classification - Machine Learning Project
 
-This project applies Machine Learning techniques to healthcare data related to nurses.  
-The goal is to analyze patterns, predict outcomes, and assist healthcare decision-making using data-driven approaches.
+This project applies machine learning techniques to classify wines based on their chemical properties.
 
 ---
 
-# 📌 Project Overview
+# 📌 Overview
 
-Healthcare systems generate large amounts of operational and workforce data.  
-Machine Learning can help hospitals and medical institutions analyze nurse-related information such as workload, scheduling efficiency, and performance patterns.
+Wine datasets are widely used in machine learning for classification problems.
 
-This project demonstrates a full ML pipeline including:
-
-- Data preprocessing
-- Exploratory Data Analysis
-- Feature engineering
-- Model training
-- Model evaluation
+The objective is to predict wine categories using physicochemical attributes.
 
 ---
 
 # 🎯 Objectives
 
-• Analyze nurse workforce data  
-• Discover patterns affecting healthcare efficiency  
-• Build predictive models  
-• Evaluate machine learning algorithms  
+- Analyze wine characteristics
+- Perform feature analysis
+- Train classification models
+- Evaluate model performance
 
 ---
 
-# 📂 Project Structure
+# 📊 Dataset
 
-Nurse/
-│
-├── data
+Typical features include:
 
-├── notebooks
+- Alcohol
+- Malic acid
+- Ash
+- Magnesium
+- Phenols
+- Flavanoids
+- Color intensity
 
-├── models
-
-├── images
-
-└── README.md
-
-
----
-
-# 📊 Dataset Description
-
-Typical variables may include:
-
-- Age
-- Department
-- Working hours
-- Experience
-- Shift patterns
-- Patient load
-- Performance indicators
-
-Target variable may represent performance, workload risk, or classification categories.
+Target variable represents wine class.
 
 ---
 
-# ⚙️ Technologies Used
+# ⚙️ Technologies
 
 Python  
 Pandas  
 NumPy  
 Scikit-learn  
 Matplotlib  
-Seaborn  
-Jupyter Notebook
+Seaborn
 
 ---
 
-# 🔬 Machine Learning Workflow
+# 🔬 Machine Learning Pipeline
 
 ### Data Preprocessing
 - Handle missing values
-- Convert categorical variables
-- Normalize numerical features
+- Normalize features
+- Train-test split
 
-### Exploratory Data Analysis
+### EDA
 - Distribution plots
-- Correlation heatmaps
-- Feature relationships
+- Correlation matrix
+- Feature importance
 
-### Model Training
-Algorithms used may include:
+### Models
 
 - Logistic Regression
-- Random Forest
 - Decision Tree
-- Gradient Boosting
+- Random Forest
+- KNN
 
-### Model Evaluation
-Metrics used:
+### Evaluation
 
 - Accuracy
-- Precision
-- Recall
-- F1 Score
 - Confusion Matrix
+- Classification Report
 
 ---
 
 # 📈 Results
 
-The trained models help identify patterns in healthcare workforce data and provide predictions useful for hospital management.
+Machine learning models successfully classify wines with high accuracy.
 
 ---
 
-# 🚀 How to Run
+# 🚀 Running
 
-Clone repository
-
-```bash
 git clone https://github.com/XC0ID/ML-Projects.git
 
+cd ML-Projects/Wine
+pip install -r requirements.txt
+
+
+Run notebook.
+
+---
 
 # 🔮 Future Improvements
 
-Deep learning models
-
-Real-time hospital analytics
-
-Workforce optimization systems
-
-Deployment using Flask / FastAPI
+- Deep learning classification
+- Hyperparameter tuning
+- Deployment as API
