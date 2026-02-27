@@ -24,9 +24,13 @@ The main objectives of this repository are:
 This repository contains several independent machine learning projects including:
 
 1. [Bank dataset analysis](https://github.com/XC0ID/ML-Projects/tree/main/Bank)  
+
 2. [Healthcare workforce analysis](https://github.com/XC0ID/ML-Projects/tree/main/Disease)
+
 3. [Nursery Admission Prediction](https://github.com/XC0ID/ML-Projects/tree/main/Nurse)
+
 4. [Student behavioral analytics](https://github.com/XC0ID/ML-Projects/tree/main/Students%20Social%20Media%20Addiction) 
+
 5. [Wine classification](https://github.com/XC0ID/ML-Projects/tree/main/Wine)
 
 Each project demonstrates the end-to-end machine learning workflow.
