@@ -1,101 +1,114 @@
-# 🏥 Nurse Machine Learning Project
+# 👨‍💻 Nursery Admission Prediction – Machine Learning Project
 
-This project applies Machine Learning techniques to healthcare data related to nurses.  
-The goal is to analyze patterns, predict outcomes, and assist healthcare decision-making using data-driven approaches.
+A Machine Learning project that predicts nursery school admission decisions based on family, financial, and social conditions using classification algorithms.
 
 ---
 
 # 📌 Project Overview
 
-Healthcare systems generate large amounts of operational and workforce data.  
-Machine Learning can help hospitals and medical institutions analyze nurse-related information such as workload, scheduling efficiency, and performance patterns.
+This project uses the **Nursery Dataset** to build machine learning models that classify nursery school applications into different recommendation categories.
 
-This project demonstrates a full ML pipeline including:
+The dataset was originally created to evaluate and rank nursery school applicants when demand exceeded available seats.
 
-- Data preprocessing
-- Exploratory Data Analysis
-- Feature engineering
-- Model training
-- Model evaluation
+The goal of this project is to:
 
----
-
-# 🎯 Objectives
-
-• Analyze nurse workforce data  
-• Discover patterns affecting healthcare efficiency  
-• Build predictive models  
-• Evaluate machine learning algorithms  
+- Perform data preprocessing
+- Train multiple ML classification models
+- Evaluate performance
+- Compare algorithms
+- Identify the best-performing model
 
 ---
 
-# 📂 Project Structure
+# 📂 Dataset Information
 
-Nurse/
-│
-├── data
+**Dataset:** Nursery Dataset  
+**Source:** UCI Machine Learning Repository
 
-├── notebooks
+### Key Details
 
-├── models
-
-├── images
-
-└── README.md
-
+- Instances: **12,960**
+- Features: **8 categorical attributes**
+- Task: **Multi-class Classification**
 
 ---
 
-# 📊 Dataset Description
+# 📊 Features
 
-Typical variables may include:
+| Feature | Description |
+|---|---|
+| parents | Parents' occupation |
+| has_nurs | Child's previous nursery |
+| form | Family structure |
+| children | Number of children |
+| housing | Housing conditions |
+| finance | Financial status |
+| social | Social conditions |
+| health | Health conditions |
 
-- Age
-- Department
-- Working hours
-- Experience
-- Shift patterns
-- Patient load
-- Performance indicators
+---
 
-Target variable may represent performance, workload risk, or classification categories.
+# 🎯 Target Variable
+
+Admission recommendation categories:
+
+- `not_recom`
+- `recommend`
+- `very_recom`
+- `priority`
+- `spec_prior`
 
 ---
 
 # ⚙️ Technologies Used
 
-Python  
-Pandas  
-NumPy  
-Scikit-learn  
-Matplotlib  
-Seaborn  
-Jupyter Notebook
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
 ---
 
-# 🔬 Machine Learning Workflow
+# 🧠 Machine Learning Models
 
-### Data Preprocessing
-- Handle missing values
-- Convert categorical variables
-- Normalize numerical features
-
-### Exploratory Data Analysis
-- Distribution plots
-- Correlation heatmaps
-- Feature relationships
-
-### Model Training
-Algorithms used may include:
+Models that can be used in this project:
 
 - Logistic Regression
-- Random Forest
 - Decision Tree
+- Random Forest
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors
+- Naive Bayes
 - Gradient Boosting
 
-### Model Evaluation
-Metrics used:
+---
+
+# 🔬 Project Workflow
+
+## 1. Data Loading
+- Import dataset
+- Assign column names
+- Inspect dataset
+
+## 2. Data Preprocessing
+- Encode categorical variables
+- Train-test split
+- Feature scaling (if required)
+
+## 3. Exploratory Data Analysis
+- Class distribution
+- Feature analysis
+- Visualizations
+
+## 4. Model Training
+Train different machine learning models.
+
+## 5. Evaluation
+
+Evaluation metrics used:
 
 - Accuracy
 - Precision
@@ -103,28 +116,68 @@ Metrics used:
 - F1 Score
 - Confusion Matrix
 
----
-
-# 📈 Results
-
-The trained models help identify patterns in healthcare workforce data and provide predictions useful for hospital management.
+## 6. Model Comparison
+Select the best-performing model.
 
 ---
 
-# 🚀 How to Run
+# 📈 Example Results
 
-Clone repository
+| Model | Accuracy |
+|---|---|
+| Logistic Regression | ~90–95% |
+| Decision Tree | ~99% |
+| Random Forest | ~98% |
+| SVM | ~97% |
+
+*Results may vary depending on preprocessing and tuning.*
+
+---
+
+# 📁 Project Structure
+
+```
+Nursery/
+│
+├── Nursery.ipynb
+├── nursery.csv
+├── README.md
+└── requirements.txt
+```
+
+---
+
+# ▶️ How to Run
+
+### 1 Clone Repository
 
 ```bash
 git clone https://github.com/XC0ID/ML-Projects.git
+cd ML-Projects/Nurse
+```
 
+### 2 Install Dependencies
 
-# 🔮 Future Improvements
+```bash
+pip install -r requirements.txt
+```
 
-Deep learning models
+### 3 Run Notebook
 
-Real-time hospital analytics
+```bash
+jupyter notebook
+```
 
-Workforce optimization systems
+Open the notebook and run all cells.
 
-Deployment using Flask / FastAPI
+---
+
+# 🚀 Future Improvements
+
+- Hyperparameter tuning
+- Deep learning models
+- Model deployment
+- Web application (Streamlit / Flask)
+- Better feature engineering
+
+---
