@@ -20,10 +20,13 @@ Each project in this repository focuses on a different dataset and machine learn
 
 ML-Projects/
 
-Bank  
-Nurse  
-Students Social Media Addiction  
-Wine  
+1. Bank
+
+2. Nurse
+
+3. Students Social Media Addiction
+
+4. Wine  
 
 Each folder contains:
 
